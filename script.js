@@ -1,4 +1,13 @@
-vketik1=kalimat.innerHTML;kalimat.innerHTML = "";
+  function fthilang(){fotoakhir.style="display:inline-flex;opacity:.5;transition:all .7s ease;transform:scale(.1)";}
+  function jjfoto(){fotoakhir.style.animation="rto .8s infinite alternate";}
+  
+  function tombol(){Tombol.style="opacity:1;transform: scale(1);margin-top:15px";
+                    if(jikakuis==0){Bn.style.display="none";ftom=1;} 
+                    if(jikakuis==1){tmbl.innerHTML=tmbl2.innerHTML;Bn.style="margin:12px 0 12px 12px";ftom=2;}}
+  
+  function multifungsi(){if(ftom==1){dilanjut();} if(ftom==2){diterima();} if(ftom==5){menuju();}}
+  
+  vketik1=kalimat.innerHTML;kalimat.innerHTML = "";
   vketik1b=kalimata.innerHTML;kalimata.innerHTML = "";
   vketik2=kalimatb.innerHTML;kalimatb.innerHTML = "";
   vketik3=kalimatc.innerHTML;kalimatc.innerHTML = "";
